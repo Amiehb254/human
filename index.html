@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Verify You Are Human</title>
+  <style>
+    body {
+      background: #121212;
+      color: #eee;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    h1 {
+      color: #4caf50;
+      margin-bottom: 40px;
+      font-size: 28px;
+    }
+    p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+    button {
+      background: #4caf50;
+      color: white;
+      border: none;
+      padding: 15px 40px;
+      font-size: 18px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background: #388e3c;
+    }
+  </style>
+</head>
+<body>
+  <h1>Verify You Are Human</h1>
+  <p>Click the button below to confirm you're not a robot and continue.</p>
+  <button id="verifyBtn">I am Human</button>
+
+  <script>
+    document.getElementById('verifyBtn').addEventListener('click', function() {
+      // Redirect to your offer URL here:
+      window.location.href = 'YOUR_OFFER_LINK_HERE';
+    });
+  </script>
+</body>
+</html>
